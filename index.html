@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assaignment-3</title>
+    <!-- DaisyUI cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font-awsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header  class="md:container md:mx-auto">
+    <!-- nav-bar  -->
+     <nav>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Home</a></li>
+                  <li><a>Service</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>contract</a></li>
+                </ul>
+              </div>
+              <i class="fa-solid fa-arrow-right -rotate-45 text-xl bg-lime-300 h-7 w-7 pl-2 ml-2 rounded-full"></i>
+              <a class="btn btn-ghost text-3xl">Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="text-base font-bold text-gray-500">Home</a></li>
+                  <li><a class="text-base text-gray-500">Service</a></li>
+                  <li><a class="text-base text-gray-500">Portfolio</a></li>
+                  <li><a class="text-base text-gray-500">Blog</a></li>
+                  <li><a class="text-base text-gray-500">contract</a></li>
+            </div>
+            <div class="navbar-end gap-2">
+              <i class="fa-solid fa-cart-shopping w-10 rounded-full drop-shadow"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+
+              <a class="btn bg-lime-300 font-bold rounded-full w-52 h-14  text-xl">Book-Consult<i class="fa-solid fa-arrow-right-rotate-45 text-xl bg-black  text-whitw h-7 w-7 pl-2 ml-2 rounded-full"></i></a>
+            </div>
+          </div>
+     </nav>
+     <!-- banner section  -->
+      <section>
+        <div class="card bg-base-100 mb-12">
+          <figure class="px-10 pt-10">
+            <img
+              src="./assets/banner.png"
+              alt="Home"/>
+              
+          </figure>
+          <div class="card-body items-center text-center space-y-4">
+            <h2 class="card-title text-2xl  lg:text-5xl font-bold">A barn house of this design has a striking appearance</h2>
+            <p class="text-base text-gray-500 lw-5/6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <div class="card-actions">
+              <button class="btn bg-lime-200 rounded-full">View Details  <i class="fa-solid fa-arrow-right -rotate-45 text-xl bg-lime-300 h-7 w-7 text-gray-500  rounded-full"></i> </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+   <main>
+    <!-- liveable space section  -->
+     <section class="md:container md:mx-auto bg-base-200 bg-gray-300>
+      <div class="hero bg-base-200">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <img
+            src="./assets/Rectangle.png"
+            class="max-w-lg rounded-lg shadow-2xl" />
+          <div>
+            <img src="./assets/Vector.png" alt="">
+            <button class="btn rounded-full px-8 bg-white font-bold"> <i class="fa-solid fa-arrow-right"></i>About Us </button>
+            <h1 class="text-4xl font-bold">We design thoughtful, <br> liveable spaces</h1>
+            <p class="py-6 text-gray-600 w-4/5">
+              The barn house captivates with its blend of rustic charm and 
+              modern sophistication, featuring weathered wood, sleek metal accents.
+            </p>
+            <div class="flex  gap-8 bg-white drop-shadow rounded-lg p-4 mb-4">
+              <div>
+                <img src="./assets/commercial.png" alt="">
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-500">Commercial</h4>
+                <p class="text-xs">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+            <div class="flex gap-8 bg-white drop-shadow rounded-lg p-4">
+              <div>
+                <img src="./assets/residential.png" alt="">
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-500">Resindential</h4>
+                <p class="text-xs">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+
+     </section>
+   </main>
+
+</body>
+</html>
